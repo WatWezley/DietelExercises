@@ -31,12 +31,15 @@ public class HekkaParcelApp {
             System.out.println();
             System.out.printf("The Collection Rate is %.2f%n", ugo.getCollectionRate(anotherParcelScanned, anotherParcelDelivered));
             System.out.printf("The Commission on Delivery is %.2f%n", ugo.getBonus(ugo.getCollectionRate(anotherParcelScanned, anotherParcelDelivered)));
-            break;}
+            break;
+        }
 
         System.out.println();
-        System.out.printf("The Collection Rate is %.2f%n", ugo.getCollectionRate(parcelScanned, parcelDelivered));
-        System.out.printf("The Commission on Delivery is %.2f%n", ugo.getBonus(ugo.getCollectionRate(parcelScanned, parcelDelivered)));
+        if (parcelDelivered > 0 && parcelScanned > 0) {
+            System.out.printf("The Collection Rate is %.2f%n", ugo.getCollectionRate(parcelScanned, parcelDelivered));
+            System.out.printf("The Commission on Delivery is %.2f%n", ugo.getBonus(ugo.getCollectionRate(parcelScanned, parcelDelivered)));
 
 
+        }
     }
 }
