@@ -2,7 +2,7 @@ package chapterTwo;
 
 import java.util.Scanner;
 
-public class Arithemetic {
+public class Arithmetic {
 
 	public static void main(String[] args){
 	

@@ -1,23 +1,24 @@
-package chapterTwo;input java.util.Scanner;
+package chapterTwo;
+import java.util.Scanner;
 
-	publi class BMI{
+	public class BMI{
 
-	public static void main(String[] args);
+	public static void main(String[] args){
 
-	Scanner input = newScanner(System.in);
+	Scanner input = new Scanner(System.in);
 	
-	System.out.print("Enter weightInKg : ";
+	System.out.print("Enter weightInKg : ");
 	
-	int WeightInkg = input.nextInt() ; 
+	int weightInKg = input.nextInt() ;
 
-	System.out.print("Enter heightInKg : ";
+	System.out.print("Enter heightInKg : ");
 	
 	int heightInkg = input.nextInt() ; 
 
-	double BMI = weightInKg/heightInkg * heightInkg) ;
+	double BMI = weightInKg/(heightInkg * heightInkg) ;
 
 
-	If( BMI < 18.5 ) {
+	if( BMI < 18.5 ) {
 		System.out.println("Under Weight") ;
 
 	}
@@ -28,7 +29,7 @@ package chapterTwo;input java.util.Scanner;
 
 	if ( BMI > 25 && BMI > 3) {
 		System.out.println("Under Weight") ;
-	} 
+	}
 
-
+	}
 }

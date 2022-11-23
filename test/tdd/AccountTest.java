@@ -24,7 +24,7 @@ public class AccountTest {
         int favourAccountBalance = favourAccount.getBalance();
         String favourName = favourAccount.getName();
         assertEquals(7000, favourAccountBalance);
-        assertEquals("ugochi", favourAccount.getName() );
+        assertEquals("Ugochi", favourAccount.getName() );
     }
 
     @Test

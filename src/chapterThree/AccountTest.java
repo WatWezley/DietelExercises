@@ -1,5 +1,7 @@
 package chapterThree;
 
+import tdd.Account;
+
 import java.util.Scanner;
 
 
@@ -7,34 +9,40 @@ import java.util.Scanner;
 // Inputting and outputting floating-point numbers with Account objects
 // import java.util.Scanner;
 
-public class Account {
-public static void main(String[] args) {
-
-            // display initial balance of each object
-             System.out.printf("%s balance: $ %n", account1.getName());
-            System.out.printf("%s balance: $ %n%n",
-                     account2.getName(), );
-
-            // create a Scanner to obtain input from the command window
-            Scanner input = new Scanner(System.in);
-
-            System.out.print("Enter deposit amount for account1: "); // prompt
-            System.out.printf("%nadding to account1 balance%n%n",
-                    depositAmount);
+public class AccountTest {
+    public static void main(String[] args) {
+        Account account1 = new Account(121);
+        Account account2 = new Account(120);
 
 
-            // display balances
-            System.out.printf("%s balance: $ %n",
-                    account1.getName(), );
-            System.out.printf("%s balance: $ %n%n",
-                    account2.getName(), );
+        // display initial balance of each object
+        displayAccount(account1);
+        displayAccount(account2);
 
-            System.out.print("Enter deposit amount for account2: "); // prompt
+        // create a Scanner to obtain input from the command window
+        Scanner input = new Scanner(System.in);
 
-             System.out.printf("%nadding to account2 balance%n%n", depositAmount);
+        System.out.print("Enter deposit amount for account1: "); // prompt
+        int depositAmount = input.nextInt();
+        System.out.printf("%nadding to account1 balance%n%n", depositAmount);
+        account1.deposit(depositAmount);
 
-            // display balances
-            System.out.printf("%s balance: $ %n", account1.getName(), );
-             System.out.printf("%s balance: $ %n%n",
-                     account2.getName(), );
+        // display balances
+        displayAccount(account1);
+        displayAccount(account2);
+
+
+        System.out.print("Enter deposit amount for account2: "); // prompt
+        depositAmount = input.nextInt();
+        System.out.printf("%nadding to account2 balance%n%n", depositAmount);
+        account2.deposit(depositAmount);
+        // display balances
+
+        displayAccount(account1);
+        displayAccount(account2);
+    }
+
+    public static void displayAccount(Account accountToDisplay){
+        System.out.printf("%s balance: $ %d only %n", accountToDisplay.getName(), accountToDisplay.getBalance() );
+    }
 }

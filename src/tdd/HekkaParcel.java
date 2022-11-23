@@ -50,17 +50,17 @@ public class HekkaParcel {
 
     public double getBonus(double collectionRate) {
         if (collectionRate > 0.0 && collectionRate <= 49.0) {
-            return (parcelDelivered * 160);
+            return (parcelDelivered * 0.0);
         } else if (collectionRate >= 50.0 && collectionRate <= 59.0) {
             return (parcelDelivered * 200);
         } else if (collectionRate >= 59.0 && collectionRate <= 69.0) {
             return (parcelDelivered * 250);
         }else {
             return (parcelDelivered * 500);
+            }
         }
 
     }
-}
 
 
 
