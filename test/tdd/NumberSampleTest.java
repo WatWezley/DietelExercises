@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class NumberSample {
+public class NumberSampleTest {
 
     @Test
     public void PositiveExeceptionTest() {
