@@ -1,23 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d0f3a8ab-46fc-4d74-a0c4-c4ce0349775a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/chapterfour/FootballPosition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapterfour/GradeAverage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapterfour/GradeAverageFnx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapterfour/SwitchExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tdd/CarApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tdd/CarShop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/tdd/CarTest.java" afterDir="false" />
+    <list default="true" id="d0f3a8ab-46fc-4d74-a0c4-c4ce0349775a" name="Changes" comment="code war">
+      <change afterPath="$PROJECT_DIR$/src/chapterfive/Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapterfive/PhoneMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapterfour/PowerOfNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classWork/fractions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/tdd/Clock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/tdd/ClockTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/regnosJava.iml" beforeDir="false" afterPath="$PROJECT_DIR$/regnosJava.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapterThree/AccountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapterThree/AccountTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapterTwo/Arithmetic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapterTwo/Arithmetic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapterTwo/BMI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapterTwo/BMI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapterTwo/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapterTwo/Circle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tdd/HekkaParcel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tdd/HekkaParcel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/tdd/AccountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/tdd/AccountTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/tdd/HekkaParcelTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/tdd/HekkaParcelTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,11 +24,18 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/src" />
+    <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/chapterThree/Cohort.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/chapterThree/Native.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/chapterfive/Menu.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/chapterfive/PhoneMenu.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/chapterfour/PowerOfNumber.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/classWork/NumberSample.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/classWork/NumberSampleApp.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/classWork/fractions.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/tdd/Account.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/tdd/AirConditioner.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/tdd/Bike.java" root0="SKIP_INSPECTION" />
@@ -46,6 +45,8 @@
     <setting file="file://$PROJECT_DIR$/test/tdd/AccountTest.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/test/tdd/AirConditionerTest.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/test/tdd/BikeTest.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/test/tdd/Clock.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/test/tdd/NumberSampleTest.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -58,19 +59,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;true&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;true&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/USER/IdeaProjects/regnosJava/src/chapterTwo&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "true",
+    "Repository.Attach.JavaDocs": "true",
+    "Repository.Attach.Sources": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/USER/IdeaProjects/regnosJava/src/chapterTwo",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="tdd" />
@@ -87,7 +89,33 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="CarTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PowerOfNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapterfour.PowerOfNumber" />
+      <module name="regnosJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="classWork.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="fractions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="classWork.fractions" />
+      <module name="regnosJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="classWork.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClockTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="regnosJava" />
       <extension name="coverage">
         <pattern>
@@ -96,13 +124,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tdd" />
-      <option name="MAIN_CLASS_NAME" value="tdd.CarTest" />
+      <option name="MAIN_CLASS_NAME" value="tdd.ClockTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CarTest.carPriceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="NumberSampleTest.NegativeExeceptionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="regnosJava" />
       <extension name="coverage">
         <pattern>
@@ -111,14 +139,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tdd" />
-      <option name="MAIN_CLASS_NAME" value="tdd.CarTest" />
-      <option name="METHOD_NAME" value="carPriceTest" />
+      <option name="MAIN_CLASS_NAME" value="tdd.NumberSampleTest" />
+      <option name="METHOD_NAME" value="NegativeExeceptionTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CarTest.carType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="NumberSampleTest.PositiveExeceptionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="regnosJava" />
       <extension name="coverage">
         <pattern>
@@ -127,40 +155,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tdd" />
-      <option name="MAIN_CLASS_NAME" value="tdd.CarTest" />
-      <option name="METHOD_NAME" value="carType" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CarTest.carTypeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="regnosJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tdd.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tdd" />
-      <option name="MAIN_CLASS_NAME" value="tdd.CarTest" />
-      <option name="METHOD_NAME" value="carTypeTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CarTest.discountedPrice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="regnosJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tdd.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tdd" />
-      <option name="MAIN_CLASS_NAME" value="tdd.CarTest" />
-      <option name="METHOD_NAME" value="discountedPrice" />
+      <option name="MAIN_CLASS_NAME" value="tdd.NumberSampleTest" />
+      <option name="METHOD_NAME" value="PositiveExeceptionTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -168,11 +164,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CarTest.discountedPrice" />
-        <item itemvalue="JUnit.CarTest" />
-        <item itemvalue="JUnit.CarTest.carTypeTest" />
-        <item itemvalue="JUnit.CarTest.carPriceTest" />
-        <item itemvalue="JUnit.CarTest.carType" />
+        <item itemvalue="JUnit.NumberSampleTest.PositiveExeceptionTest" />
+        <item itemvalue="JUnit.NumberSampleTest.NegativeExeceptionTest" />
+        <item itemvalue="Application.fractions" />
+        <item itemvalue="Application.PowerOfNumber" />
+        <item itemvalue="JUnit.ClockTest" />
       </list>
     </recent_temporary>
   </component>
@@ -184,8 +180,30 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1667398545756</updated>
-      <workItem from="1669033888477" duration="30276000" />
+      <workItem from="1669033888477" duration="88898000" />
     </task>
+    <task id="LOCAL-00001" summary="chibuzor's trouble">
+      <created>1669176709654</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1669176709654</updated>
+    </task>
+    <task id="LOCAL-00002" summary="code war">
+      <created>1669428288628</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1669428288628</updated>
+    </task>
+    <task id="LOCAL-00003" summary="code war">
+      <created>1669428493135</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1669428493135</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -201,6 +219,11 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="chibuzor's trouble" />
+    <MESSAGE value="code war" />
+    <option name="LAST_COMMIT_MESSAGE" value="code war" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/regnosJava$HekkaParcelTest_dailyCollectionRate.ic" NAME="HekkaParcelTest.dailyCollectionRate Coverage Results" MODIFIED="1668970693164" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
