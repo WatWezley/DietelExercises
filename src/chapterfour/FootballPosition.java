@@ -23,42 +23,17 @@ public class FootballPosition {
         System.out.print("Enter the Footballers Number:");
         int jerseyNumber = scanner.nextInt();
 
-        switch (jerseyNumber){
-            case 1:
-                System.out.println("This is a Goal Keeper");
-                break;
-            case 2:
-                System.out.println("This is a Right Wing Defender");
-                break;
-            case 3:
-                System.out.println("This is a Left Wing Defender");
-                break;
-            case 4:
-                System.out.println("This is a Defensive Midfielder");
-                break;
-            case 5:
-                System.out.println("This is a Central Defender");
-                break;
-            case 6:
-                System.out.println("This is a Central Defender");
-                break;
-            case 7:
-                System.out.println("This is a Right Wing Defender ");
-                break;
-            case 8:
-                System.out.println("This is an Attacking Midfielder");
-                break;
-            case 9:
-                System.out.println("This is a Central Attacker");
-                break;
-            case 10:
-                System.out.println("This is a Central Defender");
-                break;
-            case 11:
-                System.out.println("This is a Left Wing Attacker");
-                break;
-            default:
-                System.out.println("Yon no Shebi Ball");
+        switch (jerseyNumber) {
+            case 1 -> System.out.println("This is a Goal Keeper");
+            case 2 -> System.out.println("This is a Right Wing Defender");
+            case 3 -> System.out.println("This is a Left Wing Defender");
+            case 4 -> System.out.println("This is a Defensive Midfielder");
+            case 5, 10, 6 -> System.out.println("This is a Central Defender");
+            case 7 -> System.out.println("This is a Right Wing Defender ");
+            case 8 -> System.out.println("This is an Attacking Midfielder");
+            case 9 -> System.out.println("This is a Central Attacker");
+            case 11 -> System.out.println("This is a Left Wing Attacker");
+            default -> System.out.println("Yon no Shebi Ball");
         }
     }
 }

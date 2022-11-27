@@ -19,9 +19,11 @@ public class SwitchExample {
         int input = scanner.nextInt();
         switch (input){
             case 6:
-                System.out.println(" Enter amount");
+
+                System.out.println(" Enter amount:");
                 String amount = scanner.nextLine();
                 handleOtherAmounts(amount);
+                break;
             case 1:
                 System.out.println("take your 2k");
                 break;
