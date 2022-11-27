@@ -2,13 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d0f3a8ab-46fc-4d74-a0c4-c4ce0349775a" name="Changes" comment="code war">
-      <change afterPath="$PROJECT_DIR$/src/chapterfive/Menu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapterfive/PhoneMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapterfour/PowerOfNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classWork/fractions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/tdd/Clock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/tdd/ClockTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -26,6 +19,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/src" />
     <option name="ROOT_SYNC" value="SYNC" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="f50e6042-8f83-428d-b084-2eace58e8ab2" />
+        <option name="url" value="https://github.com/WatWezley/DietelExercises.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/chapterThree/Cohort.java" root0="SKIP_INSPECTION" />
@@ -180,7 +181,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1667398545756</updated>
-      <workItem from="1669033888477" duration="88898000" />
+      <workItem from="1669033888477" duration="104257000" />
     </task>
     <task id="LOCAL-00001" summary="chibuzor's trouble">
       <created>1669176709654</created>
@@ -203,7 +204,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669428493135</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="code war">
+      <created>1669492558887</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1669492558887</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

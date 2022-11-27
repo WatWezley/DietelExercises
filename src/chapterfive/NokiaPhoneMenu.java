@@ -2,10 +2,9 @@ package chapterfive;
 
 import java.util.Scanner;
 
-public class PhoneMenu {
-
+public class NokiaPhoneMenu {
     public static void main(String[] args) {
-        Menu menu = new Menu();
+        Menu nokia = new Menu();
 
         System.out.println("""
                 1. phone number
@@ -21,42 +20,48 @@ public class PhoneMenu {
                 11.clock
                 12.profiles
                 13.sim service
+                14. exit
                 """);
         Scanner scanner = new Scanner(System.in);
         System.out.println("Choose a Options:");
         int options = scanner.nextInt();
 
         switch (options) {
-            case 1 : menu.phoneBook();
-            break;
-            case 2 : menu.messages();
-            break;
+            case 1 : nokia.phoneBook();
+                break;
+            case 2 : nokia.messages();
+                break;
             case 3 : System.out.println("Chats");
-            break;
-            case 4 : menu.callRegister();
-            break;
-            case 5 : menu.tones();
-            break;
-            case 6 :menu.settings();
-            break;
+                break;
+            case 4 : nokia.callRegister();
+                break;
+            case 5 : nokia.tones();
+                break;
+            case 6 :nokia.settings();
+                break;
             case 7 : System.out.println("Call Divert");
-            break;
+                break;
             case 8 : System.out.println("Games");
-            break;
+                break;
             case 9 : System.out.println("Calculator");
-            break;
+                break;
             case 10: System.out.println("Remainders");
-            break;
-            case 11: menu.clock();
-            break;
+                break;
+            case 11: nokia.clock();
+                break;
             case 12: System.out.println("Profile");
-            break;
+                break;
             case 13: System.out.println("SIM Services");
-            break;
-            default:menu.mainMenu();
+                break;
+            case 14:System.exit(0);
+                break;
+            default: nokia.mainMenu();
 
 
         }
 
     }
+
+
+
 }
