@@ -38,7 +38,7 @@ public class ClockTest {
         assertEquals(0, famiba.getHours());
     }
 
-@Test
+    @Test
     public void minutesTest() {
         //given that there is a clock
         Clock famiba = new Clock(0, 0, 0);
@@ -79,4 +79,17 @@ public class ClockTest {
         //check that hour is 20
         assertEquals(0, famiba.getSec());
     }
+
+
+    @Test
+    public  void displayTime() {
+        //given that there is a clock
+        Clock famiba = new Clock(14, 45, 23);
+        //when hour is set to 20
+        famiba.setDisplayTime(14, 45, 23);
+        //check the time
+        assertEquals("14:45:23", famiba.getDisplayTime());
+
+    }
+
 }

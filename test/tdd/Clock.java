@@ -9,6 +9,8 @@ public class Clock {
 
     private int sec;
 
+    private String time;
+
 
     public Clock(int hours, int minutes, int sec) {
         this.hours = hours;
@@ -59,10 +61,11 @@ public class Clock {
     }
 
     public void setDisplayTime(int hours, int minutes, int sec) {
-        String time = System.out.printf("%d:%d:%d%n",getHours(),getMinutes(),getSec()).toString();
+       time = System.out.printf("%d:%d:%d%n", getHours(), getMinutes(), getSec()).toString();
     }
 
-   // public String getDisplayTime(){
-       // return time;
+    public String getDisplayTime() {
+        return time;
     }
 
+}
