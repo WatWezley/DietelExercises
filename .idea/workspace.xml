@@ -2,7 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d0f3a8ab-46fc-4d74-a0c4-c4ce0349775a" name="Changes" comment="code war">
+      <change afterPath="$PROJECT_DIR$/src/RegnosMp3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapterThree/HealthRecord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapterThree/HealthRecordApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapterThree/HeartRate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapterThree/HeartRateApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapterfive/Asterisks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapterfive/Christmas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapterfive/DaysOfChristmas1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapterfive/DiamondPrinter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapterfive/NokiaPhoneMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapterfive/PythagoreanTriple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapterfive/XO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapterfive/pythagoreanTriple2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chaptersix/Gender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chaptersix/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chaptersix/PersonApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chaptersix/PrimeNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chaptersix/RecursionSample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tdd/Mp3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/tdd/CoinTossGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/tdd/CoinTossGameTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/tdd/Mp3testing.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapterfive/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapterfive/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapterfive/PhoneMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapterfive/PhoneMenu.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,6 +36,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -69,20 +94,24 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_directory_selection": "C:/Users/USER/IdeaProjects/regnosJava/test/tdd",
     "last_opened_file_path": "C:/Users/USER/IdeaProjects/regnosJava/src/chapterTwo",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "settings.editor.selected.configurable": "configurable.group.tools"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="tdd" />
+      <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\USER\IdeaProjects\regnosJava\src\chapterTwo" />
       <recent name="C:\Users\USER\IdeaProjects\regnosJava\src" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="chapterThree" />
+      <recent name="chapterfour" />
       <recent name="tdd" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -90,12 +119,12 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="PowerOfNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapterfour.PowerOfNumber" />
+    <configuration name="DiamondPrinter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapterfive.DiamondPrinter" />
       <module name="regnosJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="classWork.*" />
+          <option name="PATTERN" value="chapterfive.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,20 +132,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="fractions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="classWork.fractions" />
+    <configuration name="RegnosMp3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RegnosMp3" />
       <module name="regnosJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="classWork.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClockTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ClockTest.displayTime" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="regnosJava" />
       <extension name="coverage">
         <pattern>
@@ -126,28 +149,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="tdd" />
       <option name="MAIN_CLASS_NAME" value="tdd.ClockTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NumberSampleTest.NegativeExeceptionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="regnosJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tdd.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tdd" />
-      <option name="MAIN_CLASS_NAME" value="tdd.NumberSampleTest" />
-      <option name="METHOD_NAME" value="NegativeExeceptionTest" />
+      <option name="METHOD_NAME" value="displayTime" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumberSampleTest.PositiveExeceptionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Mp3testing.SwitchOffTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="regnosJava" />
       <extension name="coverage">
         <pattern>
@@ -156,8 +164,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tdd" />
-      <option name="MAIN_CLASS_NAME" value="tdd.NumberSampleTest" />
-      <option name="METHOD_NAME" value="PositiveExeceptionTest" />
+      <option name="MAIN_CLASS_NAME" value="tdd.Mp3testing" />
+      <option name="METHOD_NAME" value="SwitchOffTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Mp3testing.SwitchOnTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="regnosJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tdd.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tdd" />
+      <option name="MAIN_CLASS_NAME" value="tdd.Mp3testing" />
+      <option name="METHOD_NAME" value="SwitchOnTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -165,11 +189,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.NumberSampleTest.PositiveExeceptionTest" />
-        <item itemvalue="JUnit.NumberSampleTest.NegativeExeceptionTest" />
-        <item itemvalue="Application.fractions" />
-        <item itemvalue="Application.PowerOfNumber" />
-        <item itemvalue="JUnit.ClockTest" />
+        <item itemvalue="JUnit.Mp3testing.SwitchOffTest" />
+        <item itemvalue="JUnit.Mp3testing.SwitchOnTest" />
+        <item itemvalue="Application.RegnosMp3" />
+        <item itemvalue="Application.DiamondPrinter" />
+        <item itemvalue="JUnit.ClockTest.displayTime" />
       </list>
     </recent_temporary>
   </component>
@@ -181,7 +205,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1667398545756</updated>
-      <workItem from="1669033888477" duration="104257000" />
+      <workItem from="1669033888477" duration="104983000" />
+      <workItem from="1669550284261" duration="1632000" />
+      <workItem from="1669551960636" duration="39456000" />
+      <workItem from="1669804996833" duration="67878000" />
     </task>
     <task id="LOCAL-00001" summary="chibuzor's trouble">
       <created>1669176709654</created>
@@ -217,6 +244,17 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+        <option value="Space.CommitStatus" />
+      </list>
+    </option>
+  </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
@@ -232,6 +270,17 @@
     <MESSAGE value="chibuzor's trouble" />
     <MESSAGE value="code war" />
     <option name="LAST_COMMIT_MESSAGE" value="code war" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/chapterfour/GradeAverage.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/regnosJava$HekkaParcelTest_dailyCollectionRate.ic" NAME="HekkaParcelTest.dailyCollectionRate Coverage Results" MODIFIED="1668970693164" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

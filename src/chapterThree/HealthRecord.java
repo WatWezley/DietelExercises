@@ -1,8 +1,6 @@
 package chapterThree;
 
-import chapterTwo.Years;
-
-public class HeartRate {
+public class HealthRecord {
 
     private String firstName;
 
@@ -14,17 +12,27 @@ public class HeartRate {
 
     private String years;
 
+    private String gender;
+
+    private  double height;
+
+    private  double weight;
+
     private int age;
 
     private int mHR;
 
 
-    public HeartRate(String firstName, String lastName, String day,String month, String years){
+    public HealthRecord(String firstName, String lastName, String day,String month, String years, String gender, double height, double weight){
         this.lastName = lastName;
         this.firstName = firstName;
         this.day = day;
         this.month = month;
         this.years = years;
+        this.gender = gender;
+        this.height = height;
+        this.weight = weight;
+
     }
 
     public void setFirstName (String firstName){
@@ -68,6 +76,23 @@ public class HeartRate {
         return years;
     }
 
+    public void setGender(String gender){this.gender = gender;}
+
+    public String getGender(){return gender;}
+
+   public void setHeight(double height){this.height = height;}
+
+    public double getHeight(){
+        return height;}
+
+    public void setWeight(double weight){
+        this.weight = weight;
+    }
+
+    public double getWeight(){
+        return weight;
+    }
+
     public String dateOfBirth(){
         String dob = day + "/" + month + "/" + years;
         return dob;
@@ -90,6 +115,29 @@ public class HeartRate {
         double maxTHR = 0.85 * mHR;
         String Max = String.valueOf(maxTHR);
         String THR = Min + " - " + Max;
-    return THR ;
+        return THR ;
     }
+
+    public double bodyMassIndex(double height, double weight){
+        double BMI = weight/(height * height) ;
+        return BMI;
+    }
+
+    public String bodyMassIndexValue(double BMI){
+        if( BMI < 18.5 ) {
+            return "Under Weight";}
+
+        if ( BMI > 18.5 && BMI < 25) {
+            return "Normal Weight" ;
+        }
+
+        if ( BMI > 25 && BMI < 29.9) {
+            return "Over Weight" ;
+        }
+
+        return "Obesity" ;
+    }
+
+
+
 }

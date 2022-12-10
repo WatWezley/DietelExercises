@@ -27,41 +27,55 @@ public class NokiaPhoneMenu {
         int options = scanner.nextInt();
 
         switch (options) {
-            case 1 : nokia.phoneBook();
+            case 1:
+                nokia.phoneBook();
                 break;
-            case 2 : nokia.messages();
+            case 2:
+                nokia.messages();
                 break;
-            case 3 : System.out.println("Chats");
+            case 3:
+                System.out.println("Chats");
                 break;
-            case 4 : nokia.callRegister();
+            case 4:
+                nokia.callRegister();
                 break;
-            case 5 : nokia.tones();
+            case 5:
+                nokia.tones();
                 break;
-            case 6 :nokia.settings();
+            case 6:
+                nokia.settings();
                 break;
-            case 7 : System.out.println("Call Divert");
+            case 7:
+                System.out.println("Call Divert");
                 break;
-            case 8 : System.out.println("Games");
+            case 8:
+                System.out.println("Games");
                 break;
-            case 9 : System.out.println("Calculator");
+            case 9:
+                System.out.println("Calculator");
                 break;
-            case 10: System.out.println("Remainders");
+            case 10:
+                System.out.println("Remainders");
                 break;
-            case 11: nokia.clock();
+            case 11:
+                nokia.clock();
                 break;
-            case 12: System.out.println("Profile");
+            case 12:
+                System.out.println("Profile");
                 break;
-            case 13: System.out.println("SIM Services");
+            case 13:
+                System.out.println("SIM Services");
                 break;
-            case 14:System.exit(0);
+            case 14:
+                System.exit(0);
                 break;
-            default: nokia.mainMenu();
+            default:
+                nokia.mainMenu();
 
 
         }
 
     }
-
 
 
 }

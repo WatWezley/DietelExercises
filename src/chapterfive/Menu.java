@@ -25,28 +25,39 @@ public class Menu {
         System.out.println("Enter an Option:");
         int input = scanner.nextInt();
         switch (input) {
-            case 1: System.out.println("Search");
-                    break;
-            case 2: System.out.println("Service Nos");
-                    break;
-            case 3: System.out.println("Add Name");
-                    break;
-            case 4: System.out.println("Erase");
-                    break;
-            case 5: System.out.println("Edit");
-                    break;
-            case 6: System.out.println("Assign Tone");
-                    break;
-            case 7: System.out.println("Send b'card");
-                    break;
-            case 8: options();
-                    break;
-            case 9: System.out.println("Speed Dial");
-                    break;
-            case 10:System.out.println("Voice Tags");
-                    break;
-            case  11:mainMenu();
-                    break;
+            case 1:
+                System.out.println("Search");
+                break;
+            case 2:
+                System.out.println("Service Nos");
+                break;
+            case 3:
+                System.out.println("Add Name");
+                break;
+            case 4:
+                System.out.println("Erase");
+                break;
+            case 5:
+                System.out.println("Edit");
+                break;
+            case 6:
+                System.out.println("Assign Tone");
+                break;
+            case 7:
+                System.out.println("Send b'card");
+                break;
+            case 8:
+                options();
+                break;
+            case 9:
+                System.out.println("Speed Dial");
+                break;
+            case 10:
+                System.out.println("Voice Tags");
+                break;
+            case 11:
+                mainMenu();
+                break;
         }
         return phoneBook();
     }
@@ -62,11 +73,14 @@ public class Menu {
         System.out.println("Enter an option:");
         int option = scanner.nextInt();
         switch (option) {
-            case 1: System.out.println("Type of view");
+            case 1:
+                System.out.println("Type of view");
                 break;
-            case 2: System.out.println("Memory Status");
+            case 2:
+                System.out.println("Memory Status");
                 break;
-            case 3: callRegister();
+            case 3:
+                callRegister();
                 break;
         }
         return options();
@@ -93,28 +107,39 @@ public class Menu {
         System.out.println("Enter an Option:");
         int input = scanner.nextInt();
         switch (input) {
-            case 1: System.out.println("Write Messages");
-                    break;
-            case 2: System.out.println("Inbox");
-                    break;
-            case 3: System.out.println("Outbox");
-                    break;
-            case 4: System.out.println("Picture Messages");
-                    break;
-            case 5: System.out.println("Templates");
-                    break;
-            case 6: System.out.println("Smileys");
-                    break;
-            case 7: messageSettings();
-                    break;
-            case 8: System.out.println("Info Services");
-                    break;
-            case 9: System.out.println("Voice mailbox number");
-                    break;
-            case 10:System.out.println("Service Command Editor");
-                    break;
-            case 11: mainMenu();
-                    break;
+            case 1:
+                System.out.println("Write Messages");
+                break;
+            case 2:
+                System.out.println("Inbox");
+                break;
+            case 3:
+                System.out.println("Outbox");
+                break;
+            case 4:
+                System.out.println("Picture Messages");
+                break;
+            case 5:
+                System.out.println("Templates");
+                break;
+            case 6:
+                System.out.println("Smileys");
+                break;
+            case 7:
+                messageSettings();
+                break;
+            case 8:
+                System.out.println("Info Services");
+                break;
+            case 9:
+                System.out.println("Voice mailbox number");
+                break;
+            case 10:
+                System.out.println("Service Command Editor");
+                break;
+            case 11:
+                mainMenu();
+                break;
         }
         return messages();
     }
@@ -139,13 +164,17 @@ public class Menu {
                 System.out.println("Enter an option:");
                 int option2 = scanner.nextInt();
                 switch (option2) {
-                    case 1: System.out.println("Message centre number");
-                            break;
-                    case 2: System.out.println("Messages sent as");
-                            break;
-                    case 3: System.out.println("Messages validity");
-                            break;
-                    case 4: messageSettings();
+                    case 1:
+                        System.out.println("Message centre number");
+                        break;
+                    case 2:
+                        System.out.println("Messages sent as");
+                        break;
+                    case 3:
+                        System.out.println("Messages validity");
+                        break;
+                    case 4:
+                        messageSettings();
 
                 }
                 break;
@@ -159,15 +188,20 @@ public class Menu {
                 System.out.println("Enter an option:");
                 int option = scanner.nextInt();
                 switch (option) {
-                    case 1: System.out.println("Delivery Reports");
-                            break;
-                    case 2: System.out.println("Reply via same centre");
-                            break;
-                    case 3: System.out.println("Character support");
-                            break;
-                    case 4: messageSettings();
+                    case 1:
+                        System.out.println("Delivery Reports");
+                        break;
+                    case 2:
+                        System.out.println("Reply via same centre");
+                        break;
+                    case 3:
+                        System.out.println("Character support");
+                        break;
+                    case 4:
+                        messageSettings();
                 }
-            case 3: messages();
+            case 3:
+                messages();
                 break;
         }
 
@@ -216,7 +250,8 @@ public class Menu {
             case 8:
                 System.out.println("Prepaid Credit");
                 break;
-            case 9: mainMenu();
+            case 9:
+                mainMenu();
                 break;
         }
         return callRegister();
@@ -235,12 +270,15 @@ public class Menu {
         System.out.println("Enter an Option:");
         int input = scanner.nextInt();
         switch (input) {
-            case 1: System.out.println("Call Cost Limit");
-                    break;
-            case 2: System.out.println("Show Cost in");
-                    break;
-            case 3: callRegister();
-                    break;
+            case 1:
+                System.out.println("Call Cost Limit");
+                break;
+            case 2:
+                System.out.println("Show Cost in");
+                break;
+            case 3:
+                callRegister();
+                break;
         }
         return callCostSettings();
     }
@@ -257,14 +295,18 @@ public class Menu {
         System.out.println("Enter an Option:");
         int input = scanner.nextInt();
         switch (input) {
-            case 1: System.out.println("Last Call Cost");
-                    break;
-            case 2: System.out.println("All Calls Cost");
-                    break;
-            case 3: System.out.println("Clear Counters");
-                    break;
-            case 4: callRegister();
-                    break;
+            case 1:
+                System.out.println("Last Call Cost");
+                break;
+            case 2:
+                System.out.println("All Calls Cost");
+                break;
+            case 3:
+                System.out.println("Clear Counters");
+                break;
+            case 4:
+                callRegister();
+                break;
         }
         return showCallCosts();
     }
@@ -283,18 +325,24 @@ public class Menu {
         System.out.println("Enter an Option:");
         int input = scanner.nextInt();
         switch (input) {
-            case 1: System.out.println("Last Call Duration");
-                    break;
-            case 2: System.out.println("All Calls Duration");
-                    break;
-            case 3: System.out.println(" Received Calls Duration");
-                    break;
-            case 4: System.out.println("Dialled Calls Duration");
-                    break;
-            case 5: System.out.println("Clear timer");
-                    break;
-            case 6: callRegister();
-                    break;
+            case 1:
+                System.out.println("Last Call Duration");
+                break;
+            case 2:
+                System.out.println("All Calls Duration");
+                break;
+            case 3:
+                System.out.println(" Received Calls Duration");
+                break;
+            case 4:
+                System.out.println("Dialled Calls Duration");
+                break;
+            case 5:
+                System.out.println("Clear timer");
+                break;
+            case 6:
+                callRegister();
+                break;
         }
         return showCallDuration();
     }
@@ -317,26 +365,36 @@ public class Menu {
         System.out.println("Enter an Option:");
         int input = scanner.nextInt();
         switch (input) {
-            case 1: System.out.println("Ringing Tone");
-                    break;
-            case 2: System.out.println("Ringing Volume");
-                    break;
-            case 3: System.out.println("Incoming Call Alert");
-                    break;
-            case 4: System.out.println("Composer");
-                    break;
-            case 5: System.out.println("Message Alert Tone");
-                    break;
-            case 6: System.out.println("Keypad Tones");
-                    break;
-            case 7: System.out.println("Warning and Game Tones");
-                    break;
-            case 8: System.out.println("Vibrating Alert");
-                    break;
-            case 9: System.out.println("Screen Saver");
-                    break;
-            case 10: mainMenu();
-                    break;
+            case 1:
+                System.out.println("Ringing Tone");
+                break;
+            case 2:
+                System.out.println("Ringing Volume");
+                break;
+            case 3:
+                System.out.println("Incoming Call Alert");
+                break;
+            case 4:
+                System.out.println("Composer");
+                break;
+            case 5:
+                System.out.println("Message Alert Tone");
+                break;
+            case 6:
+                System.out.println("Keypad Tones");
+                break;
+            case 7:
+                System.out.println("Warning and Game Tones");
+                break;
+            case 8:
+                System.out.println("Vibrating Alert");
+                break;
+            case 9:
+                System.out.println("Screen Saver");
+                break;
+            case 10:
+                mainMenu();
+                break;
         }
         return tones();
     }
@@ -355,16 +413,21 @@ public class Menu {
         System.out.println("Enter an Option:");
         int input = scanner.nextInt();
         switch (input) {
-            case 1: callSettings();
-                    break;
-            case 2: phoneSettings();
-                    break;
-            case 3: securitySettings();
-                    break;
-            case 4: System.out.println("Restore Factory Settings");
-                    break;
-            case 5: mainMenu();
-                    break;
+            case 1:
+                callSettings();
+                break;
+            case 2:
+                phoneSettings();
+                break;
+            case 3:
+                securitySettings();
+                break;
+            case 4:
+                System.out.println("Restore Factory Settings");
+                break;
+            case 5:
+                mainMenu();
+                break;
         }
 
         return settings();
@@ -386,25 +449,30 @@ public class Menu {
         System.out.println("Enter an Option:");
         int input = scanner.nextInt();
         switch (input) {
-            case 1: System.out.println("Automatic Redial");
-                    break;
-            case 2: System.out.println("Speed Dialing");
-                    break;
-            case 3: System.out.println("Call Waiting Options");
-                    break;
-            case 4: System.out.println("Own Number Sending");
-                    break;
-            case 5: System.out.println("Phone Line in Use");
-                    break;
-            case 6: System.out.println("Automatic Answer");
-                    break;
-            case 7: settings();
-                    break;
+            case 1:
+                System.out.println("Automatic Redial");
+                break;
+            case 2:
+                System.out.println("Speed Dialing");
+                break;
+            case 3:
+                System.out.println("Call Waiting Options");
+                break;
+            case 4:
+                System.out.println("Own Number Sending");
+                break;
+            case 5:
+                System.out.println("Phone Line in Use");
+                break;
+            case 6:
+                System.out.println("Automatic Answer");
+                break;
+            case 7:
+                settings();
+                break;
         }
         return callSettings();
     }
-
-
 
 
     private String phoneSettings() {
@@ -422,20 +490,27 @@ public class Menu {
         System.out.println("Enter an Option:");
         int input = scanner.nextInt();
         switch (input) {
-            case 1: System.out.println("Language");
-                    break;
-            case 2: System.out.println("Cell Info Display");
-                    break;
-            case 3: System.out.println("Welcome Note");
-                    break;
-            case 4: System.out.println("Network Selection");
-                    break;
-            case 5: System.out.println("Light");
-                    break;
-            case 6: System.out.println("Confirm SIM Service Action");
-                    break;
-            case 7: settings();
-                    break;
+            case 1:
+                System.out.println("Language");
+                break;
+            case 2:
+                System.out.println("Cell Info Display");
+                break;
+            case 3:
+                System.out.println("Welcome Note");
+                break;
+            case 4:
+                System.out.println("Network Selection");
+                break;
+            case 5:
+                System.out.println("Light");
+                break;
+            case 6:
+                System.out.println("Confirm SIM Service Action");
+                break;
+            case 7:
+                settings();
+                break;
         }
         return phoneSettings();
     }
@@ -455,20 +530,27 @@ public class Menu {
         System.out.println("Enter an Option:");
         int input = scanner.nextInt();
         switch (input) {
-            case 1: System.out.println("Pin Code Request");
-                    break;
-            case 2: System.out.println("Call Barring Service");
-                    break;
-            case 3: System.out.println("Fixed Dialing");
-                    break;
-            case 4: System.out.println("Closed User Group");
-                    break;
-            case 5: System.out.println("Phone Security");
-                    break;
-            case 6: System.out.println("Change Access Codes");
-                    break;
-            case 7: settings();
-                    break;
+            case 1:
+                System.out.println("Pin Code Request");
+                break;
+            case 2:
+                System.out.println("Call Barring Service");
+                break;
+            case 3:
+                System.out.println("Fixed Dialing");
+                break;
+            case 4:
+                System.out.println("Closed User Group");
+                break;
+            case 5:
+                System.out.println("Phone Security");
+                break;
+            case 6:
+                System.out.println("Change Access Codes");
+                break;
+            case 7:
+                settings();
+                break;
         }
         return settings();
     }
@@ -488,27 +570,34 @@ public class Menu {
         System.out.println("Enter an Option:");
         int input = scanner.nextInt();
         switch (input) {
-            case 1: System.out.println("Alarm Clock");
-                    break;
-            case 2: System.out.println("Clock Settings");
-                    break;
-            case 3: System.out.println("Date Setting");
-                    break;
-            case 4: System.out.println("Stopwatch");
-                    break;
-            case 5: System.out.println("Countdown Timer");
-                    break;
-            case 6: System.out.println("Auto Update of Date and Time");
-                    break;
-            case 7: mainMenu();
-                    break;
+            case 1:
+                System.out.println("Alarm Clock");
+                break;
+            case 2:
+                System.out.println("Clock Settings");
+                break;
+            case 3:
+                System.out.println("Date Setting");
+                break;
+            case 4:
+                System.out.println("Stopwatch");
+                break;
+            case 5:
+                System.out.println("Countdown Timer");
+                break;
+            case 6:
+                System.out.println("Auto Update of Date and Time");
+                break;
+            case 7:
+                mainMenu();
+                break;
         }
         return clock();
 
     }
 
 
-    public String mainMenu(){
+    public String mainMenu() {
         System.out.println("""
                 1. phone number
                 2. messages
@@ -531,33 +620,47 @@ public class Menu {
         Menu nokia = new Menu();
 
         switch (options) {
-            case 1 : nokia.phoneBook();
+            case 1:
+                nokia.phoneBook();
                 break;
-            case 2 : nokia.messages();
+            case 2:
+                nokia.messages();
                 break;
-            case 3 : System.out.println("Chats");
+            case 3:
+                System.out.println("Chats");
                 break;
-            case 4 : nokia.callRegister();
+            case 4:
+                nokia.callRegister();
                 break;
-            case 5 : nokia.tones();
+            case 5:
+                nokia.tones();
                 break;
-            case 6 :nokia.settings();
+            case 6:
+                nokia.settings();
                 break;
-            case 7 : System.out.println("Call Divert");
+            case 7:
+                System.out.println("Call Divert");
                 break;
-            case 8 : System.out.println("Games");
+            case 8:
+                System.out.println("Games");
                 break;
-            case 9 : System.out.println("Calculator");
+            case 9:
+                System.out.println("Calculator");
                 break;
-            case 10: System.out.println("Remainders");
+            case 10:
+                System.out.println("Remainders");
                 break;
-            case 11: nokia.clock();
+            case 11:
+                nokia.clock();
                 break;
-            case 12: System.out.println("Profile");
+            case 12:
+                System.out.println("Profile");
                 break;
-            case 13: System.out.println("SIM Services");
+            case 13:
+                System.out.println("SIM Services");
                 break;
-            case 14: System.exit(0);
+            case 14:
+                System.exit(0);
                 break;
         }
         return mainMenu();
